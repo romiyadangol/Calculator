@@ -1,10 +1,11 @@
-.input{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+.input {
+    background-color: #bbbbbb;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
     border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    outline: none;
-    transition: all 0.3s;
+    width: 288px;
+    text-align: right;
+    margin-bottom: 20px;
+    color:black; 
 }

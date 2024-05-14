@@ -1,12 +1,15 @@
+import '../assets/css/components/button.css';
 
-
-
-const Button = ({ value, onClick }) => {
+function Button({ value, onClick, style }){
   return (
-    <button onClick={onClick}>
+    <div className="btn-box">
+    <button 
+    style={style}
+    className="button" 
+    onClick={onClick}>
       {value}
     </button>
+    </div>
   );
-};
-
+}
 export default Button;
